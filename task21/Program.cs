@@ -19,4 +19,4 @@ Console.WriteLine($"Введите координату по оси Y второ
 int y2 = Convert.ToInt32(Console.ReadLine());
 
 double distance = Distance(x1, y1, x2, y2);
-Console.WriteLine($"Растояние между точками равно {distance}");
+Console.WriteLine($"Растояние между точками равно {Math.Round(distance, 2)}");
