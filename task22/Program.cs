@@ -10,9 +10,11 @@ void sqr(int N)
         int count = 1;
         while (count <= N)
         {
-            Console.Write(count * count + " ");
+            int result = count * count;
+            Console.Write(result + ", ");
             count++;
         }
+        Console.Write(N * N);
     }
     else
     {
